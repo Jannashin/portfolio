@@ -2,14 +2,6 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <script>
-      // Redirect all non-file requests to index.html
-      if (location.pathname !== '/' && !location.pathname.includes('.')) {
-        location.replace('/portfolio/');
-      }
-    </script>
-  </head>
-  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
@@ -17,6 +9,11 @@
     <meta name="author" content="Portfolio" />
     <meta property="og:image" content="/og-image.png" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap">
+    <script>
+      if (location.pathname !== '/' && !location.pathname.includes('.')) {
+        location.replace('/portfolio/');
+      }
+    </script>
   </head>
 
   <body>
