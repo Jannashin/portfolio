@@ -15,7 +15,7 @@ const DownloadResume: FC<DownloadResumeProps> = ({
     // Create an anchor element and trigger download
     const link = document.createElement("a");
     link.href = resumeUrl;
-    link.download = "/resume_jannashin.pdf"; // Change to your name
+    link.download = "/Jannashin_resume.docx"; // Change to your name
     link.target = "_blank";
     document.body.appendChild(link);
     link.click();
