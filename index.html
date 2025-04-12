@@ -9,6 +9,11 @@
     <meta name="author" content="Portfolio" />
     <meta property="og:image" content="/og-image.png" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap">
+    <script>
+      if (location.pathname !== '/' && !location.pathname.includes('.')) {
+        location.replace('/portfolio/');
+      }
+    </script>
     <script type="module" crossorigin src="/portfolio/assets/index-QDK6pJAE.js"></script>
     <link rel="stylesheet" crossorigin href="/portfolio/assets/index-Bn3wJs_a.css">
   </head>
