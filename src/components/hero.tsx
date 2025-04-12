@@ -1,5 +1,6 @@
 
 import { useEffect, useRef } from 'react';
+import DownloadResume from "./download-resume";
 
 const Hero = () => {
   const heroRef = useRef<HTMLDivElement>(null);

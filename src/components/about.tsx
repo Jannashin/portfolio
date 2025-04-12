@@ -1,5 +1,6 @@
 
 import { useEffect, useRef } from 'react';
+import DownloadResume from './download-resume';
 
 const About = () => {
   const sectionRef = useRef<HTMLDivElement>(null);
@@ -64,7 +65,6 @@ const About = () => {
                 or seeking inspiration in nature and everyday beauty.
               </p>
             </div>
-            
             <div className="mt-8 flex flex-wrap gap-3">
               <a 
                 href="#contact" 
@@ -72,12 +72,10 @@ const About = () => {
               >
                 Get in Touch
               </a>
-              <a 
-                href="#" 
-                className="inline-flex items-center justify-center px-6 py-3 border border-pink-200 text-gray-700 rounded-full font-medium hover:bg-pink-50 transition-all"
-              >
-                Download Resume
-              </a>
+              <DownloadResume
+                resumeUrl=".\resume_jannashin.pdf"
+                className="inline-flex items-center justify-center px-8 py-6 border border-pink-200 text-gray-700 rounded-full font-medium hover:bg-pink-50 transition-all"
+                />
             </div>
           </div>
           

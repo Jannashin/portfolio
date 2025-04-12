@@ -32,15 +32,15 @@ const Projects = () => {
     {
       title: "Digital Portfolio",
       description: "A personal portfolio showcasing creative work with subtle animations and elegant typography.",
-      image: "https://images.unsplash.com/photo-1618005198919-d3d4b5a92ead",
+      image: "https://unsplash.com/photos/person-holding-ballpoint-pen-writing-on-notebook-505eectW54k",
       tags: ["Design", "React", "Framer Motion"],
       link: "#"
     },
     {
-      title: "Doctor's appointment portal",
-      description: "A modern healthcare platform with intuitive forms and a clean user interface.",
-      image: "https://images.unsplash.com/photo-1576091160550-2173dba999ef",
-      tags: ["UI/UX", "React", "API Integration"],
+      title: "Cafe's Website",
+      description: "A modern website design for a cafe with a clean layout, beautiful imagery, and smooth transitions.",
+      image: "https://unsplash.com/photos/interior-of-a-coffee-shop-tKN1WXrzQ3s",
+      tags: ["UI/UX", "Vite + React", "Tailwind CSS"],
       link: "#"
     },
     {
